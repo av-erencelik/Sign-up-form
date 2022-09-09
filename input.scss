@@ -19,9 +19,11 @@ body {
         display: flex;
         justify-content: center;
         position: absolute;
-        top: 15%;
+        top: 10%;
+        width: 100%;
         #logo {
-            width: 10%;
+          align-self: center;
+          margin-right: 30px;
         }
         >h1 {
             align-self: center;
@@ -76,8 +78,8 @@ main {
             }
         }
         .button {
-            padding: 0 50px;
             margin-top: 20px;
+            display: block;
             button {
                 padding: 16px 48px;
                 border-radius: 5px;
@@ -101,9 +103,13 @@ main {
                 color: #005697;
             }
         }
-    }
+    }   
 }
 input:focus {
     border: 2px solid #003865;
     box-shadow: 2px 3px 18px 1px #0038656b;
+}
+#message {
+    font-size: 0.7rem;
+    margin-top: 5px;
 }
